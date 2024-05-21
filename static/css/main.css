@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('../background.avif');
+    background-size: cover; /* Makes sure the image covers the entire page */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+title{
+    margin-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns form items to the left */
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    margin: 5px;
+    padding: 10px;
+    width: 350%;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #42c2b7;
+    color: #0b0a0a;
+    border: #f4f4f4;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
